@@ -1,0 +1,27 @@
+/*
+Theme Name: Html Quick Pack
+Author:
+Author URI:
+Theme URI:
+Front End Developer: Fahamina Yesmin
+Back End Developer:  Fahamina Yesmin
+Project Start:
+Date: 21 March 2024
+*/
+
+
+
+// Components
+@import "theme/components/header";
+@import "theme/components/form";
+@import "theme/components/plantArticalList";
+@import "theme/components/sideform";
+@import "theme/components/thankyouModel";
+@import "theme/components/industriesSlider";
+@import "theme/components/plantTimeline";
+
+
+
+// Pages
+@import "theme/pages/dashboardView";
+@import "theme/pages/dashboardStyle";

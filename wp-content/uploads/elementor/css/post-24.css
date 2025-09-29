@@ -1,0 +1,53 @@
+.elementor-kit-24{--e-global-color-primary:#EEE5D7;--e-global-color-secondary:#103707;--e-global-color-text:#444444;--e-global-color-accent:#092543;--e-global-color-27b7dad:#FFFFFF;--e-global-color-4f290c7:#222222;--e-global-color-48e3605:#FFF8ED;--e-global-color-4b98fae:#F6CFBF42;--e-global-color-4271f7e:#D1F349;--e-global-color-9e9add3:#0A1007;--e-global-color-74dcd87:#EEEEEE;--e-global-typography-primary-font-family:"sf-pro-display";--e-global-typography-primary-font-size:18px;--e-global-typography-primary-font-weight:500;--e-global-typography-primary-text-transform:none;--e-global-typography-primary-font-style:normal;--e-global-typography-primary-text-decoration:none;--e-global-typography-secondary-font-family:"sf-pro-display";--e-global-typography-secondary-font-size:20px;--e-global-typography-secondary-font-weight:500;--e-global-typography-secondary-font-style:normal;--e-global-typography-secondary-text-decoration:none;--e-global-typography-secondary-line-height:1.4em;--e-global-typography-text-font-family:"sf-pro-display";--e-global-typography-text-font-size:16px;--e-global-typography-text-font-weight:400;--e-global-typography-text-text-transform:none;--e-global-typography-text-font-style:normal;--e-global-typography-text-text-decoration:none;--e-global-typography-text-line-height:1.4em;--e-global-typography-accent-font-family:"sf-pro-display";--e-global-typography-accent-font-size:15px;--e-global-typography-accent-font-weight:500;--e-global-typography-accent-text-transform:none;--e-global-typography-accent-font-style:normal;--e-global-typography-accent-text-decoration:none;--e-global-typography-accent-line-height:16px;--e-global-typography-accent-letter-spacing:0px;--e-global-typography-3d7046c-font-family:"sf-pro-display";--e-global-typography-3d7046c-font-size:72px;--e-global-typography-3d7046c-font-weight:500;--e-global-typography-3d7046c-font-style:normal;--e-global-typography-3d7046c-text-decoration:none;--e-global-typography-3d7046c-line-height:1.1em;--e-global-typography-cda23d3-font-family:"sf-pro-display";--e-global-typography-cda23d3-font-size:20px;--e-global-typography-cda23d3-font-weight:400;--e-global-typography-cda23d3-text-transform:none;--e-global-typography-cda23d3-font-style:normal;--e-global-typography-cda23d3-text-decoration:none;--e-global-typography-cda23d3-line-height:1.4em;--e-global-typography-a8d86de-font-family:"sf-pro-display";--e-global-typography-a8d86de-font-size:24px;--e-global-typography-a8d86de-font-weight:400;--e-global-typography-a8d86de-font-style:normal;--e-global-typography-a8d86de-text-decoration:none;--e-global-typography-a8d86de-line-height:1.4em;--e-global-typography-abe9cca-font-family:"sf-pro-display";--e-global-typography-abe9cca-font-size:15px;--e-global-typography-abe9cca-font-weight:500;--e-global-typography-abe9cca-text-transform:none;--e-global-typography-abe9cca-text-decoration:none;--e-global-typography-abe9cca-line-height:16px;--e-global-typography-abe9cca-letter-spacing:0.5px;--e-global-typography-6880bef-font-family:"sf-pro-display";--e-global-typography-6880bef-font-size:40px;--e-global-typography-6880bef-font-weight:500;--e-global-typography-6880bef-line-height:1.2em;--e-global-typography-8a7c699-font-family:"sf-pro-display";--e-global-typography-8a7c699-font-size:24px;--e-global-typography-8a7c699-font-weight:500;--e-global-typography-8a7c699-text-transform:none;--e-global-typography-8a7c699-font-style:normal;--e-global-typography-8a7c699-text-decoration:none;--e-global-typography-8a7c699-line-height:1.2em;--e-global-typography-1bd2724-font-family:"sf-pro-display";--e-global-typography-1bd2724-font-size:14px;--e-global-typography-1bd2724-font-weight:400;--e-global-typography-1bd2724-text-transform:none;--e-global-typography-1bd2724-font-style:normal;--e-global-typography-1bd2724-text-decoration:none;--e-global-typography-1bd2724-line-height:14px;}.elementor-kit-24 button,.elementor-kit-24 input[type="button"],.elementor-kit-24 input[type="submit"],.elementor-kit-24 .elementor-button{background-color:var( --e-global-color-secondary );color:var( --e-global-color-27b7dad );padding:15px 30px 15px 30px;}.elementor-kit-24 e-page-transition{background-color:#FFBC7D;}.elementor-kit-24 a{color:var( --e-global-color-accent );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );text-transform:var( --e-global-typography-text-text-transform );font-style:var( --e-global-typography-text-font-style );text-decoration:var( --e-global-typography-text-text-decoration );line-height:var( --e-global-typography-text-line-height );}.elementor-kit-24 button:hover,.elementor-kit-24 button:focus,.elementor-kit-24 input[type="button"]:hover,.elementor-kit-24 input[type="button"]:focus,.elementor-kit-24 input[type="submit"]:hover,.elementor-kit-24 input[type="submit"]:focus,.elementor-kit-24 .elementor-button:hover,.elementor-kit-24 .elementor-button:focus{color:var( --e-global-color-secondary );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1320px;}.e-con{--container-max-width:1320px;--container-default-padding-top:0px;--container-default-padding-right:0px;--container-default-padding-bottom:0px;--container-default-padding-left:0px;}{}h1.entry-title{display:var(--page-title-display);}.site-header .site-branding{flex-direction:column;align-items:stretch;}.site-header{padding-inline-end:0px;padding-inline-start:0px;}.site-footer .site-branding{flex-direction:column;align-items:stretch;}@media(max-width:1600px){.elementor-kit-24 a{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}}@media(max-width:1024px){.elementor-kit-24{--e-global-typography-primary-font-size:44px;--e-global-typography-primary-line-height:1.1em;--e-global-typography-secondary-font-size:28px;--e-global-typography-secondary-line-height:1.2em;--e-global-typography-text-font-size:15px;--e-global-typography-accent-font-size:16px;--e-global-typography-accent-line-height:19px;--e-global-typography-3d7046c-font-size:55px;--e-global-typography-3d7046c-line-height:1.2em;--e-global-typography-cda23d3-font-size:20px;--e-global-typography-a8d86de-font-size:14px;--e-global-typography-abe9cca-font-size:22px;--e-global-typography-abe9cca-line-height:1.5em;--e-global-typography-8a7c699-font-size:44px;--e-global-typography-8a7c699-line-height:1.1em;--e-global-typography-1bd2724-font-size:44px;--e-global-typography-1bd2724-line-height:1.1em;}.elementor-kit-24 a{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-kit-24{--e-global-typography-primary-font-size:36px;--e-global-typography-secondary-font-size:22px;--e-global-typography-secondary-line-height:1.4em;--e-global-typography-3d7046c-font-size:36px;--e-global-typography-3d7046c-line-height:1em;--e-global-typography-3d7046c-letter-spacing:0px;--e-global-typography-cda23d3-font-size:16px;--e-global-typography-cda23d3-line-height:1.25em;--e-global-typography-cda23d3-letter-spacing:0px;--e-global-typography-abe9cca-font-size:20px;--e-global-typography-6880bef-font-size:40px;--e-global-typography-8a7c699-font-size:36px;--e-global-typography-1bd2724-font-size:14px;}.elementor-kit-24 a{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */@media only screen and (min-width: 1025px) {
+header .register a{
+    background-color: #526A19;
+    padding: 0 30px !important;
+    border-radius: 50px;
+    color:#fff !important;
+}
+}
+.searchandfilter ul{
+    padding: 0px;
+}
+.searchandfilter li[data-sf-field-input-type="checkbox"] ul{
+    max-height: 250px;
+    background-color: white;
+    padding: 10px;
+    overflow: auto;
+}
+
+.elementor-widget-theme-post-content ol li, .elementor-widget-theme-post-content ul li{
+    margin-bottom: 12px;
+}
+.elementor-element.main-content-view {
+    padding: 20px 10px;
+    -webkit-padding-start: 16rem;
+    padding-inline-start: 16rem;
+    min-width: 1200px;
+}
+.elementor-element.main-content-view.collapsed {
+    -webkit-padding-start: 6rem;
+    padding-inline-start: 6rem;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'sf-pro-display';
+	font-style: normal;
+	font-weight: 700;
+	font-display: auto;
+	src: url('https://aifarming.ca/wp-content/uploads/2025/01/SFPRODISPLAYBOLD.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'sf-pro-display';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('https://aifarming.ca/wp-content/uploads/2025/01/SFPRODISPLAYMEDIUM.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'sf-pro-display';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url('https://aifarming.ca/wp-content/uploads/2025/01/SFPRODISPLAYREGULAR.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

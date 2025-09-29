@@ -1,0 +1,354 @@
+// Define common variables
+$default-font: "sf-pro-display", Sans-serif;
+$text-color: #0A1007;
+$text-gray: #7B828A;
+$text-natural-green: #67A045;
+
+.plant_details_11{
+    img.plant-img{
+        width: 100px;
+        min-height: 100px;
+        border: 1.4px solid #C4C9D1;
+        border-radius: 4px;
+        object-fit: cover;
+        margin-bottom: 30px;
+    }
+    .plant-name{
+        font-family: $default-font;
+        font-size: 20px;
+        font-weight: 500;
+        color: $text-color;
+        margin: 0;
+    }
+    .badge.bg-success{
+
+    }
+    .plant-code{
+        font-family: $default-font;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: -0.5px;
+        color: $text-gray;
+        margin: 15px 0 20px; 
+    }
+}
+.plant-detalis-accordion{
+    .nav{
+        width: fit-content;
+        background-color: #F5F5F5;
+        border: none !important;
+        padding: 5px 5px 7px;
+        border-radius: 6px;
+        .nav-link{
+            border: none !important;
+            font-family: $default-font;
+            font-size: 14px;
+            font-weight: 400;
+            color: $text-gray;
+            padding: 5px 8px;
+            .active-icon{
+                display: none;
+            }
+            .inactive-icon{
+                display: inline-block;
+            }
+            &.active{
+                color: $text-natural-green;
+                font-weight: 500;
+                box-shadow: 0px 1px 2px 0px #00000029;
+                background-color: #FFFFFD;
+                border-radius: 4px;
+                .inactive-icon{
+                    display: none;
+                }
+                .active-icon{
+                    display: inline-block;
+                }
+            }
+        }
+    }
+    .tab-content{
+        margin-top: 25px;
+        .tab-pane{
+            .tab-content-title{
+                font-family: $default-font;
+                font-size: 18px;
+                font-weight: 500;
+                color: $text-color;
+            }
+        }
+    }
+}
+
+.plantTimeline-section{
+    box-shadow: 0px 1.16px 4.64px 0px #1216170F;
+    border-radius: 8px;
+    border: 1px solid #1216170F;
+
+    .planting-steps{
+        padding: 45px 10px;
+        max-width: 420px;
+        margin: auto;
+        .accordion{
+            display: flex;
+            flex-flow: column;
+            row-gap: 46px;
+        }
+        .milestone-1, .milestone-2, .milestone-3, .milestone-4, .milestone-5{
+            position: relative;
+            border: 0;
+            &::after{
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 46px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+            }
+            .accordion-header{
+                .accordion-button{
+                    box-shadow: 0px 1.16px 4.64px 0px #1216170F;
+                    border-radius: 8px;
+                    background-color: #EFEBFF;
+                    padding: 10px;
+                    &.collapsed{
+                        img{
+                            opacity: 0.3;
+                        }
+                        &::after{
+                            opacity: 0.5;
+                        }
+                    }
+                    &[aria-expanded="true"] {
+                        border-radius: 8px 8px 0 0;
+                        box-shadow: none;
+                        border-bottom: 1px solid #dbdbdb;
+                    }
+                    &[aria-expanded="false"]{
+                        background-color: #f4f4f4f4;
+                        box-shadow: 0px 1.16px 4.64px 0px #1216170F;
+                    }
+                    &:focus-visible{
+                        outline: none;
+                    }
+                    &::after{
+                        width: 24px;
+                        height: 24px;
+                        border-radius: 50%;
+                        border:1px solid #FFFFFF;
+                        background-size: 8px;
+                        background-position: center;
+                    }
+                }
+                
+            }
+            .accordion-collapse{
+                background-color: #EFEBFF; 
+            }
+            .accordion-title{
+                .milestone-info{
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #0A1007;
+                    margin-left: 10px;
+                    p{
+                        font-size: 10px;
+                        line-height: 10px;
+                        font-weight: 400;
+                        margin-bottom: 2px;
+                        background-color: #876CFC;
+                        border: 0.8px solid #3E27A3;
+                        color: white;
+                        width: fit-content;
+                        padding: 2px 4px 3px;
+                        border-radius: 20px;
+                    }
+                    .step-unlock, .step-lock{
+                        color: #00AB55;
+                        font-size: 9px;
+                        line-height: 9px;
+                        font-weight: 500;
+                        background-color: #DEFFEE;
+                        border-radius: 20px;
+                        padding: 2px 5px 3px 13px;
+                        border: 0.6px solid #ffffff;
+                        box-shadow: 0px 0px 2px 0px #0000001F;
+                        position: relative;
+                        display: inline-block;
+                        margin-left: 4px;
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            width: 9px;
+                            height: 9px;
+                            background-image: url(../img/icons/unlock-icon.png);
+                            background-repeat: no-repeat;
+                            background-size: 7px;
+                            background-position: center;
+                            top: 2px;
+                            left: 3px;
+                        }
+                    }
+                    .step-lock{
+                        color: #FF0000;
+                        background-color: #FFE7E7;
+                        &::before{
+                            background-image: url(../img/icons/lock-icon.png);
+                        }
+                    }
+                }
+            }
+            
+        }
+        .milestone-1{
+            .accordion-button::after{
+                background-color: #F3F0FF;
+                //background-image: url(../img/icons/accordion-arrow.svg) !important;
+            }
+            .accordion-title .milestone-info p{
+                background-color: #876CFC;
+                border: 0.8px solid #3E27A3;
+            }
+            .unlock-btn{
+                background-color: #876CFC;
+                box-shadow: 0px 0px 0px 0.8px #876CFC;
+                box-shadow: 0px 2px 2px 0px #876CFC26;
+            }
+        }
+        .milestone-2{
+            .accordion-button::after{
+                background-color: #E2FFEF;
+                //background-image: url(../img/icons/accordion-arrow-green.svg) !important;
+            }
+            .accordion-title .milestone-info p{
+                background-color: #00AB55;
+                border: 0.8px solid #0B733F;
+            }
+        }
+        .milestone-3{
+            .accordion-button::after{
+                background-color: #F1D694;
+                //background-image: url(../img/icons/accordion-arrow-yellow.svg) !important;
+            }
+            .accordion-title .milestone-info p{
+                background-color: #ffbe1b;
+                border: 0.8px solid #BB890B;
+            }
+        }
+
+        .milestone-4{
+            .accordion-button::after{
+                background-color: #B3C0CD;
+                //background-image: url(../img/icons/accordion-arrow-blue.svg) !important;
+            }
+            .accordion-title .milestone-info p{
+                background-color: #0080FF;
+                border: 0.8px solid #005EBB;
+            }
+        }
+
+        .milestone-5{
+            .accordion-button::after{
+                background-color: #C9AEC2;
+                //background-image: url(../img/icons/accordion-arrow-pink.svg) !important;
+            }
+            .accordion-title .milestone-info p{
+                background-color: #fb12b9;
+                border: 0.8px solid #AD047D;
+            }
+        }
+        
+        
+        .milestone-2{
+            .accordion-header .accordion-button {background-color: #E2FFF0;}
+            .accordion-collapse{
+                background-color: #E2FFF0; 
+            }
+        }
+
+        .milestone-3{
+            .accordion-header .accordion-button {background-color: #F1D694;}
+            .accordion-collapse{
+                background-color: #F1D694; 
+            }
+        }
+        
+        .milestone-4{
+            .accordion-header .accordion-button {background-color: #B3C0CD;}
+            .accordion-collapse{
+                background-color: #B3C0CD; 
+            }
+        }
+        
+        .milestone-5{
+            .accordion-header .accordion-button {background-color: #C9AEC2;}
+            .accordion-collapse{
+                background-color: #C9AEC2; 
+            }
+        }
+        
+        
+
+        
+        .milestone-1::after{
+            background-image: url(../img/milestion01-line-img.png);
+        }
+        .milestone-2::after{
+            background-image: url(../img/milestion02-line-img.png);
+        }
+        .milestone-3::after{
+            background-image: url(../img/milestion03-line-img.png);
+        }
+        .milestone-4::after{
+            background-image: url(../img/milestion04-line-img.png);
+        }
+    }
+}
+.plantTimeline-section .planting-steps .accordion{
+    .unlock-btn{
+        width: 100%;
+        display: block;
+        color: #ffffff;
+        border-radius: 6px;
+        padding: 5px 7px;
+        text-align: center;
+        margin-top: 25px;
+        background-image: url(../img/icons/arrow-up-icon.svg);
+        background-repeat: no-repeat;
+        background-position: right 15% center;
+    }
+    &.innerAccordion{
+        row-gap: 20px;
+        .accordion-item{
+            border: 0;
+            border-radius: 0 !important;
+            background-color: transparent;
+        }
+        .accordion-button{
+            font-family: $default-font;
+            font-size: 12px;
+            font-weight: 500;
+            color: $text-color;
+            img{
+                opacity: 1 !important;
+                margin-right: 5px;
+            }
+            &::after{
+                background-image: url(../img/icons/dropdown-icon.png) !important;
+                opacity: 1 !important;
+                width: 12px;
+                height: 12px;
+                border-radius: 0;
+                border: 0;
+                background-color: transparent;
+                background-size: 12px;
+            }
+        }
+        
+    }
+}
+.C-gap-20{
+    column-gap: 20px;
+}

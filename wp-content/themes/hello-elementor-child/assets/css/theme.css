@@ -1,0 +1,1455 @@
+/*
+Theme Name: Html Quick Pack
+Author:
+Author URI:
+Theme URI:
+Front End Developer: Fahamina Yesmin
+Back End Developer:  Fahamina Yesmin
+Project Start:
+Date: 21 March 2024
+*/
+#multistep-form {
+  /* Change placeholder text color to gray */
+  /* Change select option text color to black */
+  /* Change the hover effect for options to green */
+  /* Ensure the custom placeholder color is visible even in the dropdown */
+}
+#multistep-form .gform-theme--framework .gf_step_label {
+  color: #7B828A;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "sf-pro-display", Sans-serif;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+#multistep-form .gform-theme--framework .gf_step_number {
+  border: 1.5px dashed #7B828A;
+  width: 17px;
+  height: 17px;
+  font-size: 0;
+  min-inline-size: 0;
+}
+#multistep-form .gform-theme--framework .gf_step_active .gf_step_number {
+  background: linear-gradient(to right, #67A045 55%, #ffffff 45%);
+  border: 1px solid #67A045;
+}
+#multistep-form .gform-theme--framework .gf_step_completed .gf_step_number::after {
+  background-color: #67A045;
+  border: 1px solid #67A045;
+  font-size: 10px;
+  width: 17px;
+  height: 17px;
+}
+#multistep-form .gform-theme--framework .gf_step_completed .gf_step_label {
+  color: #0A1007;
+}
+#multistep-form .form-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  font-family: "sf-pro-display", Sans-serif;
+  color: #0A1007;
+  margin-bottom: 20px;
+}
+#multistep-form .field-lebel-text {
+  font-size: 14px;
+  line-height: 14px;
+  color: #7B828A;
+  margin-bottom: 0px;
+}
+#multistep-form .gform-body {
+  background: #ffffff;
+  box-shadow: 0px 0px 0px 1.16px rgba(18, 22, 23, 0.0509803922);
+  box-shadow: 0px 1.16px 4.64px 0px rgba(18, 22, 23, 0.0588235294);
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 700px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#multistep-form .gform_page_fields {
+  margin: auto;
+}
+#multistep-form .gform_page_fields .gform_fields {
+  row-gap: 15px;
+}
+#multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .gfield_label, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .gfield_label {
+  color: #0A1007;
+  font-family: "sf-pro-display", Sans-serif;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 400;
+  padding: 11px;
+  border-radius: 6px;
+  border: 1px solid rgba(18, 22, 23, 0.1019607843);
+  width: 100%;
+  margin-bottom: 0;
+}
+#multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .gfield_label:hover, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .gfield_label:hover {
+  color: #67A045;
+  background-color: #EBFFDF;
+  cursor: pointer;
+}
+#multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .ginput_container_checkbox, #multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .ginput_container_radio, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .ginput_container_checkbox, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .ginput_container_radio {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+#multistep-form .gfield.gfield--type-checkbox.hidden-checkbox.active .ginput_container_checkbox, #multistep-form .gfield.gfield--type-checkbox.hidden-checkbox.active .ginput_container_radio, #multistep-form .gfield.gfield--type-radio.hidden-checkbox.active .ginput_container_checkbox, #multistep-form .gfield.gfield--type-radio.hidden-checkbox.active .ginput_container_radio {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+#multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .ginput_container_checkbox, #multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .ginput_container_radio, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .ginput_container_checkbox, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .ginput_container_radio {
+  padding: 10px;
+}
+#multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .ginput_container_checkbox .gfield_checkbox .gchoice, #multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .ginput_container_checkbox .gfield_radio .gchoice, #multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .ginput_container_radio .gfield_checkbox .gchoice, #multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .ginput_container_radio .gfield_radio .gchoice, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .ginput_container_checkbox .gfield_checkbox .gchoice, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .ginput_container_checkbox .gfield_radio .gchoice, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .ginput_container_radio .gfield_checkbox .gchoice, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .ginput_container_radio .gfield_radio .gchoice {
+  width: 100%;
+  display: block;
+}
+#multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .ginput_container_checkbox .gfield_checkbox .gchoice .gfield-choice-input, #multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .ginput_container_checkbox .gfield_radio .gchoice .gfield-choice-input, #multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .ginput_container_radio .gfield_checkbox .gchoice .gfield-choice-input, #multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .ginput_container_radio .gfield_radio .gchoice .gfield-choice-input, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .ginput_container_checkbox .gfield_checkbox .gchoice .gfield-choice-input, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .ginput_container_checkbox .gfield_radio .gchoice .gfield-choice-input, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .ginput_container_radio .gfield_checkbox .gchoice .gfield-choice-input, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .ginput_container_radio .gfield_radio .gchoice .gfield-choice-input {
+  visibility: hidden;
+  position: absolute;
+}
+#multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .ginput_container_checkbox .gfield_checkbox .gchoice .gform-field-label, #multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .ginput_container_checkbox .gfield_radio .gchoice .gform-field-label, #multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .ginput_container_radio .gfield_checkbox .gchoice .gform-field-label, #multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .ginput_container_radio .gfield_radio .gchoice .gform-field-label, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .ginput_container_checkbox .gfield_checkbox .gchoice .gform-field-label, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .ginput_container_checkbox .gfield_radio .gchoice .gform-field-label, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .ginput_container_radio .gfield_checkbox .gchoice .gform-field-label, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .ginput_container_radio .gfield_radio .gchoice .gform-field-label {
+  margin-left: 0;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 11px;
+  background: #fff;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+#multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .ginput_container_checkbox .gfield_checkbox .gchoice input:checked ~ .gform-field-label, #multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .ginput_container_checkbox .gfield_radio .gchoice input:checked ~ .gform-field-label, #multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .ginput_container_radio .gfield_checkbox .gchoice input:checked ~ .gform-field-label, #multistep-form .gfield.gfield--type-checkbox.hidden-checkbox .ginput_container_radio .gfield_radio .gchoice input:checked ~ .gform-field-label, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .ginput_container_checkbox .gfield_checkbox .gchoice input:checked ~ .gform-field-label, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .ginput_container_checkbox .gfield_radio .gchoice input:checked ~ .gform-field-label, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .ginput_container_radio .gfield_checkbox .gchoice input:checked ~ .gform-field-label, #multistep-form .gfield.gfield--type-radio.hidden-checkbox .ginput_container_radio .gfield_radio .gchoice input:checked ~ .gform-field-label {
+  color: #ffffff;
+  background-color: #67A045;
+}
+#multistep-form .gfield.gfield--type-checkbox.hidden-checkbox.active, #multistep-form .gfield.gfield--type-radio.hidden-checkbox.active {
+  border: 1px solid #eee;
+  border-radius: 6px;
+  color: #67A045;
+  background-color: #EBFFDF;
+}
+#multistep-form .gfield.gfield--type-checkbox.hidden-checkbox.active .gfield_label, #multistep-form .gfield.gfield--type-radio.hidden-checkbox.active .gfield_label {
+  color: #67A045;
+  background-color: #EBFFDF;
+  font-weight: 500;
+}
+#multistep-form .gform-page-footer {
+  justify-content: end;
+  position: relative;
+}
+#multistep-form .gform-page-footer .gform_ajax_spinner {
+  position: absolute !important;
+  right: -20px !important;
+}
+#multistep-form .gform_next_button, #multistep-form .gform-theme-button, #multistep-form #gform_submit_button_1 {
+  font-size: 13px;
+  line-height: 10px;
+  font-weight: 500;
+  font-family: "sf-pro-display", Sans-serif;
+  min-height: 32px;
+}
+#multistep-form .gform_next_button:focus, #multistep-form .gform-theme-button:focus, #multistep-form #gform_submit_button_1:focus {
+  outline: 0;
+  border-color: #67A045;
+}
+#multistep-form .gform_next_button, #multistep-form #gform_submit_button_1 {
+  background-color: #67A045;
+  background-image: url(../img/icons/next-path-icon.svg);
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  color: #ffffff;
+  padding: 6px 30px 6px 12px;
+}
+#multistep-form .gform_previous_button {
+  background-color: #ffffff;
+  border-color: #eeeeee;
+  background-image: url(../img/icons/previous-btn-icon.svg);
+  background-repeat: no-repeat;
+  background-position: left 10px center;
+  padding: 6px 12px 6px 30px;
+}
+#multistep-form .gform_previous_button:focus {
+  border-color: #eeeeee;
+}
+#multistep-form .gfield_label {
+  font-size: 14px;
+  color: #7B828A;
+  font-weight: 400;
+}
+#multistep-form .form-title-2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  font-family: "sf-pro-display", Sans-serif;
+  color: #0A1007;
+  margin-bottom: 5px;
+}
+#multistep-form .custom-field label.gform-field-label {
+  color: #0A1007;
+  font-family: "sf-pro-display", Sans-serif;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 400;
+  padding: 11px;
+  border-radius: 6px;
+  border: 1px solid rgba(18, 22, 23, 0.1019607843);
+  width: 100%;
+  margin-bottom: 0;
+}
+#multistep-form .custom-field label.gform-field-label:hover {
+  color: #67A045;
+  background-color: #EBFFDF;
+  cursor: pointer;
+}
+#multistep-form .custom-field .ginput_container_checkbox, #multistep-form .custom-field .ginput_container_radio {
+  padding: 10px;
+}
+#multistep-form .custom-field .ginput_container_checkbox .gfield_checkbox .gchoice, #multistep-form .custom-field .ginput_container_checkbox .gfield_radio .gchoice, #multistep-form .custom-field .ginput_container_radio .gfield_checkbox .gchoice, #multistep-form .custom-field .ginput_container_radio .gfield_radio .gchoice {
+  width: 100%;
+  display: block;
+}
+#multistep-form .custom-field .ginput_container_checkbox .gfield_checkbox .gchoice .gfield-choice-input, #multistep-form .custom-field .ginput_container_checkbox .gfield_radio .gchoice .gfield-choice-input, #multistep-form .custom-field .ginput_container_radio .gfield_checkbox .gchoice .gfield-choice-input, #multistep-form .custom-field .ginput_container_radio .gfield_radio .gchoice .gfield-choice-input {
+  visibility: hidden;
+  position: absolute;
+}
+#multistep-form .custom-field .ginput_container_checkbox .gfield_checkbox .gchoice .gform-field-label, #multistep-form .custom-field .ginput_container_checkbox .gfield_radio .gchoice .gform-field-label, #multistep-form .custom-field .ginput_container_radio .gfield_checkbox .gchoice .gform-field-label, #multistep-form .custom-field .ginput_container_radio .gfield_radio .gchoice .gform-field-label {
+  margin-left: 0;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 11px;
+  background: #fff;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+#multistep-form .custom-field .ginput_container_checkbox .gfield_checkbox .gchoice input:checked ~ .gform-field-label, #multistep-form .custom-field .ginput_container_checkbox .gfield_radio .gchoice input:checked ~ .gform-field-label, #multistep-form .custom-field .ginput_container_radio .gfield_checkbox .gchoice input:checked ~ .gform-field-label, #multistep-form .custom-field .ginput_container_radio .gfield_radio .gchoice input:checked ~ .gform-field-label {
+  color: #ffffff;
+  background-color: #67A045;
+}
+#multistep-form .custom-field input:checked ~ .gform-field-label {
+  color: #ffffff;
+  background-color: #67A045;
+}
+#multistep-form .instruction-title {
+  font-family: "sf-pro-display", Sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #0A1007;
+}
+#multistep-form .instruction-block h3 {
+  font-family: "sf-pro-display", Sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #0A1007;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#multistep-form .instruction-block p {
+  font-family: "sf-pro-display", Sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  font-weight: 400;
+  color: #7B828A;
+  text-align: justify;
+}
+#multistep-form .instruction-block .read-more-btn {
+  font-size: 13px;
+  line-height: 10px;
+  font-weight: 500;
+  font-family: "sf-pro-display", Sans-serif;
+  background-color: #67A045;
+  background-image: url(../img/icons/next-path-icon.svg);
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 8px 30px 8px 15px;
+  margin-bottom: 30px;
+  display: block;
+  width: fit-content;
+}
+#multistep-form .label-disable .gfield_label {
+  display: none;
+}
+#multistep-form #gform_fields_1_4 {
+  row-gap: 25px;
+}
+#multistep-form select.gfield_select, #multistep-form input[type=text] {
+  color: #0A1007;
+  border-color: #eeeeee;
+}
+#multistep-form select.gfield_select:focus, #multistep-form input[type=text]:focus {
+  outline: none;
+}
+#multistep-form input[type=text]::placeholder {
+  color: gray; /* Placeholder color */
+}
+#multistep-form select.gfield_select .gf_placeholder {
+  color: gray;
+}
+#multistep-form select.gfield_select option {
+  color: #0A1007;
+}
+#multistep-form select.gfield_select option:hover {
+  background-color: green;
+  color: white; /* Optional: make the text color white for better contrast */
+}
+#multistep-form select.gfield_select:invalid option {
+  color: gray;
+}
+
+.plant-artical-list .plant-artical-card {
+  display: flex;
+  align-items: center;
+  column-gap: 45px;
+  padding: 6px;
+}
+.plant-artical-list .plant-artical-card:nth-last-child(1) .circle-div::after {
+  content: none;
+}
+.plant-artical-list .plant-artical-card .circle-div {
+  width: 14px;
+  height: 14px;
+  background-color: #ffffff;
+  border: 4px solid #939CA9;
+  border-radius: 100%;
+  position: relative;
+}
+.plant-artical-list .plant-artical-card .circle-div::before {
+  content: "";
+  width: 70px;
+  height: 1px;
+  position: absolute;
+  top: 3px;
+  left: 10px;
+  border-bottom: 1px dashed #E6E9E9;
+  z-index: 0;
+}
+.plant-artical-list .plant-artical-card .circle-div::after {
+  content: "";
+  width: 2px;
+  height: 130px;
+  position: absolute;
+  top: 10px;
+  left: 3px;
+  border-left: 1px dashed #E6E9E9;
+}
+.plant-artical-list .plant-artical-card .plant-artical-content {
+  box-shadow: 0px 0px 0px 1px rgba(18, 55, 105, 0.0509803922);
+  border: 1px solid rgba(17, 24, 39, 0.0509803922);
+  border-radius: 6px;
+  padding: 17px;
+  background-color: #ffffff;
+  z-index: 1;
+  width: 90%;
+}
+.plant-artical-list .plant-artical-card .plant-artical-content .plant-artical-title {
+  font-family: "sf-pro-display", Sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5em;
+  color: #0a1007;
+}
+.plant-artical-list .plant-artical-card .plant-artical-content .plant-artical-shrot-text {
+  color: #7B828A;
+  font-family: "sf-pro-display", Sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+.plant-artical-list .plant-artical-card .plant-artical-content .learn-more-btn {
+  background-color: #67A045;
+  font-family: "sf-pro-display", Sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 11px;
+  letter-spacing: 0px;
+  border-radius: 4px 4px 4px 4px;
+  padding: 8px 25px 8px 10px;
+  color: #ffffff;
+  background-image: url(../img/icons/know-more-btn-icon.svg);
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 12px;
+  display: block;
+  width: fit-content;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 0.8px #67A045;
+  box-shadow: 0px 2px 2px 0px rgba(24, 44, 13, 0.1490196078);
+}
+.plant-artical-list .plant-artical-card .plant-artical-content .learn-more-btn:hover {
+  background-color: #222222;
+}
+
+.plant_details_11 img.plant-img {
+  width: 100px;
+  min-height: 100px;
+  border: 1.4px solid #C4C9D1;
+  border-radius: 4px;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+.plant_details_11 .plant-name {
+  font-family: "sf-pro-display", Sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #0A1007;
+  margin: 0;
+}
+.plant_details_11 .plant-code {
+  font-family: "sf-pro-display", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.5px;
+  color: #7B828A;
+  margin: 15px 0 20px;
+}
+
+.plant-detalis-accordion .nav {
+  width: fit-content;
+  background-color: #F5F5F5;
+  border: none !important;
+  padding: 5px 5px 7px;
+  border-radius: 6px;
+}
+.plant-detalis-accordion .nav .nav-link {
+  border: none !important;
+  font-family: "sf-pro-display", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #7B828A;
+  padding: 5px 8px;
+}
+.plant-detalis-accordion .nav .nav-link .active-icon {
+  display: none;
+}
+.plant-detalis-accordion .nav .nav-link .inactive-icon {
+  display: inline-block;
+}
+.plant-detalis-accordion .nav .nav-link.active {
+  color: #67A045;
+  font-weight: 500;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1607843137);
+  background-color: #FFFFFD;
+  border-radius: 4px;
+}
+.plant-detalis-accordion .nav .nav-link.active .inactive-icon {
+  display: none;
+}
+.plant-detalis-accordion .nav .nav-link.active .active-icon {
+  display: inline-block;
+}
+.plant-detalis-accordion .tab-content {
+  margin-top: 25px;
+}
+.plant-detalis-accordion .tab-content .tab-pane .tab-content-title {
+  font-family: "sf-pro-display", Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #0A1007;
+}
+
+.plantTimeline-section {
+  box-shadow: 0px 1.16px 4.64px 0px rgba(18, 22, 23, 0.0588235294);
+  border-radius: 8px;
+  border: 1px solid rgba(18, 22, 23, 0.0588235294);
+}
+.plantTimeline-section .planting-steps {
+  padding: 45px 10px;
+  max-width: 420px;
+  margin: auto;
+}
+.plantTimeline-section .planting-steps .accordion {
+  display: flex;
+  flex-flow: column;
+  row-gap: 46px;
+}
+.plantTimeline-section .planting-steps .milestone-1, .plantTimeline-section .planting-steps .milestone-2, .plantTimeline-section .planting-steps .milestone-3, .plantTimeline-section .planting-steps .milestone-4, .plantTimeline-section .planting-steps .milestone-5 {
+  position: relative;
+  border: 0;
+}
+.plantTimeline-section .planting-steps .milestone-1::after, .plantTimeline-section .planting-steps .milestone-2::after, .plantTimeline-section .planting-steps .milestone-3::after, .plantTimeline-section .planting-steps .milestone-4::after, .plantTimeline-section .planting-steps .milestone-5::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 46px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.plantTimeline-section .planting-steps .milestone-1 .accordion-header .accordion-button, .plantTimeline-section .planting-steps .milestone-2 .accordion-header .accordion-button, .plantTimeline-section .planting-steps .milestone-3 .accordion-header .accordion-button, .plantTimeline-section .planting-steps .milestone-4 .accordion-header .accordion-button, .plantTimeline-section .planting-steps .milestone-5 .accordion-header .accordion-button {
+  box-shadow: 0px 1.16px 4.64px 0px rgba(18, 22, 23, 0.0588235294);
+  border-radius: 8px;
+  background-color: #EFEBFF;
+  padding: 10px;
+}
+.plantTimeline-section .planting-steps .milestone-1 .accordion-header .accordion-button.collapsed img, .plantTimeline-section .planting-steps .milestone-2 .accordion-header .accordion-button.collapsed img, .plantTimeline-section .planting-steps .milestone-3 .accordion-header .accordion-button.collapsed img, .plantTimeline-section .planting-steps .milestone-4 .accordion-header .accordion-button.collapsed img, .plantTimeline-section .planting-steps .milestone-5 .accordion-header .accordion-button.collapsed img {
+  opacity: 0.3;
+}
+.plantTimeline-section .planting-steps .milestone-1 .accordion-header .accordion-button.collapsed::after, .plantTimeline-section .planting-steps .milestone-2 .accordion-header .accordion-button.collapsed::after, .plantTimeline-section .planting-steps .milestone-3 .accordion-header .accordion-button.collapsed::after, .plantTimeline-section .planting-steps .milestone-4 .accordion-header .accordion-button.collapsed::after, .plantTimeline-section .planting-steps .milestone-5 .accordion-header .accordion-button.collapsed::after {
+  opacity: 0.5;
+}
+.plantTimeline-section .planting-steps .milestone-1 .accordion-header .accordion-button[aria-expanded=true], .plantTimeline-section .planting-steps .milestone-2 .accordion-header .accordion-button[aria-expanded=true], .plantTimeline-section .planting-steps .milestone-3 .accordion-header .accordion-button[aria-expanded=true], .plantTimeline-section .planting-steps .milestone-4 .accordion-header .accordion-button[aria-expanded=true], .plantTimeline-section .planting-steps .milestone-5 .accordion-header .accordion-button[aria-expanded=true] {
+  border-radius: 8px 8px 0 0;
+  box-shadow: none;
+  border-bottom: 1px solid #dbdbdb;
+}
+.plantTimeline-section .planting-steps .milestone-1 .accordion-header .accordion-button[aria-expanded=false], .plantTimeline-section .planting-steps .milestone-2 .accordion-header .accordion-button[aria-expanded=false], .plantTimeline-section .planting-steps .milestone-3 .accordion-header .accordion-button[aria-expanded=false], .plantTimeline-section .planting-steps .milestone-4 .accordion-header .accordion-button[aria-expanded=false], .plantTimeline-section .planting-steps .milestone-5 .accordion-header .accordion-button[aria-expanded=false] {
+  background-color: rgba(244, 244, 244, 0.9568627451);
+  box-shadow: 0px 1.16px 4.64px 0px rgba(18, 22, 23, 0.0588235294);
+}
+.plantTimeline-section .planting-steps .milestone-1 .accordion-header .accordion-button:focus-visible, .plantTimeline-section .planting-steps .milestone-2 .accordion-header .accordion-button:focus-visible, .plantTimeline-section .planting-steps .milestone-3 .accordion-header .accordion-button:focus-visible, .plantTimeline-section .planting-steps .milestone-4 .accordion-header .accordion-button:focus-visible, .plantTimeline-section .planting-steps .milestone-5 .accordion-header .accordion-button:focus-visible {
+  outline: none;
+}
+.plantTimeline-section .planting-steps .milestone-1 .accordion-header .accordion-button::after, .plantTimeline-section .planting-steps .milestone-2 .accordion-header .accordion-button::after, .plantTimeline-section .planting-steps .milestone-3 .accordion-header .accordion-button::after, .plantTimeline-section .planting-steps .milestone-4 .accordion-header .accordion-button::after, .plantTimeline-section .planting-steps .milestone-5 .accordion-header .accordion-button::after {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  background-size: 8px;
+  background-position: center;
+}
+.plantTimeline-section .planting-steps .milestone-1 .accordion-collapse, .plantTimeline-section .planting-steps .milestone-2 .accordion-collapse, .plantTimeline-section .planting-steps .milestone-3 .accordion-collapse, .plantTimeline-section .planting-steps .milestone-4 .accordion-collapse, .plantTimeline-section .planting-steps .milestone-5 .accordion-collapse {
+  background-color: #EFEBFF;
+}
+.plantTimeline-section .planting-steps .milestone-1 .accordion-title .milestone-info, .plantTimeline-section .planting-steps .milestone-2 .accordion-title .milestone-info, .plantTimeline-section .planting-steps .milestone-3 .accordion-title .milestone-info, .plantTimeline-section .planting-steps .milestone-4 .accordion-title .milestone-info, .plantTimeline-section .planting-steps .milestone-5 .accordion-title .milestone-info {
+  font-size: 14px;
+  font-weight: 500;
+  color: #0A1007;
+  margin-left: 10px;
+}
+.plantTimeline-section .planting-steps .milestone-1 .accordion-title .milestone-info p, .plantTimeline-section .planting-steps .milestone-2 .accordion-title .milestone-info p, .plantTimeline-section .planting-steps .milestone-3 .accordion-title .milestone-info p, .plantTimeline-section .planting-steps .milestone-4 .accordion-title .milestone-info p, .plantTimeline-section .planting-steps .milestone-5 .accordion-title .milestone-info p {
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 400;
+  margin-bottom: 2px;
+  background-color: #876CFC;
+  border: 0.8px solid #3E27A3;
+  color: white;
+  width: fit-content;
+  padding: 2px 4px 3px;
+  border-radius: 20px;
+}
+.plantTimeline-section .planting-steps .milestone-1 .accordion-title .milestone-info .step-unlock, .plantTimeline-section .planting-steps .milestone-1 .accordion-title .milestone-info .step-lock, .plantTimeline-section .planting-steps .milestone-2 .accordion-title .milestone-info .step-unlock, .plantTimeline-section .planting-steps .milestone-2 .accordion-title .milestone-info .step-lock, .plantTimeline-section .planting-steps .milestone-3 .accordion-title .milestone-info .step-unlock, .plantTimeline-section .planting-steps .milestone-3 .accordion-title .milestone-info .step-lock, .plantTimeline-section .planting-steps .milestone-4 .accordion-title .milestone-info .step-unlock, .plantTimeline-section .planting-steps .milestone-4 .accordion-title .milestone-info .step-lock, .plantTimeline-section .planting-steps .milestone-5 .accordion-title .milestone-info .step-unlock, .plantTimeline-section .planting-steps .milestone-5 .accordion-title .milestone-info .step-lock {
+  color: #00AB55;
+  font-size: 9px;
+  line-height: 9px;
+  font-weight: 500;
+  background-color: #DEFFEE;
+  border-radius: 20px;
+  padding: 2px 5px 3px 13px;
+  border: 0.6px solid #ffffff;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1215686275);
+  position: relative;
+  display: inline-block;
+  margin-left: 4px;
+}
+.plantTimeline-section .planting-steps .milestone-1 .accordion-title .milestone-info .step-unlock::before, .plantTimeline-section .planting-steps .milestone-1 .accordion-title .milestone-info .step-lock::before, .plantTimeline-section .planting-steps .milestone-2 .accordion-title .milestone-info .step-unlock::before, .plantTimeline-section .planting-steps .milestone-2 .accordion-title .milestone-info .step-lock::before, .plantTimeline-section .planting-steps .milestone-3 .accordion-title .milestone-info .step-unlock::before, .plantTimeline-section .planting-steps .milestone-3 .accordion-title .milestone-info .step-lock::before, .plantTimeline-section .planting-steps .milestone-4 .accordion-title .milestone-info .step-unlock::before, .plantTimeline-section .planting-steps .milestone-4 .accordion-title .milestone-info .step-lock::before, .plantTimeline-section .planting-steps .milestone-5 .accordion-title .milestone-info .step-unlock::before, .plantTimeline-section .planting-steps .milestone-5 .accordion-title .milestone-info .step-lock::before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background-image: url(../img/icons/unlock-icon.png);
+  background-repeat: no-repeat;
+  background-size: 7px;
+  background-position: center;
+  top: 2px;
+  left: 3px;
+}
+.plantTimeline-section .planting-steps .milestone-1 .accordion-title .milestone-info .step-lock, .plantTimeline-section .planting-steps .milestone-2 .accordion-title .milestone-info .step-lock, .plantTimeline-section .planting-steps .milestone-3 .accordion-title .milestone-info .step-lock, .plantTimeline-section .planting-steps .milestone-4 .accordion-title .milestone-info .step-lock, .plantTimeline-section .planting-steps .milestone-5 .accordion-title .milestone-info .step-lock {
+  color: #FF0000;
+  background-color: #FFE7E7;
+}
+.plantTimeline-section .planting-steps .milestone-1 .accordion-title .milestone-info .step-lock::before, .plantTimeline-section .planting-steps .milestone-2 .accordion-title .milestone-info .step-lock::before, .plantTimeline-section .planting-steps .milestone-3 .accordion-title .milestone-info .step-lock::before, .plantTimeline-section .planting-steps .milestone-4 .accordion-title .milestone-info .step-lock::before, .plantTimeline-section .planting-steps .milestone-5 .accordion-title .milestone-info .step-lock::before {
+  background-image: url(../img/icons/lock-icon.png);
+}
+.plantTimeline-section .planting-steps .milestone-1 .accordion-button::after {
+  background-color: #F3F0FF;
+}
+.plantTimeline-section .planting-steps .milestone-1 .accordion-title .milestone-info p {
+  background-color: #876CFC;
+  border: 0.8px solid #3E27A3;
+}
+.plantTimeline-section .planting-steps .milestone-1 .unlock-btn {
+  background-color: #876CFC;
+  box-shadow: 0px 0px 0px 0.8px #876CFC;
+  box-shadow: 0px 2px 2px 0px rgba(135, 108, 252, 0.1490196078);
+}
+.plantTimeline-section .planting-steps .milestone-2 .accordion-button::after {
+  background-color: #E2FFEF;
+}
+.plantTimeline-section .planting-steps .milestone-2 .accordion-title .milestone-info p {
+  background-color: #00AB55;
+  border: 0.8px solid #0B733F;
+}
+.plantTimeline-section .planting-steps .milestone-3 .accordion-button::after {
+  background-color: #F1D694;
+}
+.plantTimeline-section .planting-steps .milestone-3 .accordion-title .milestone-info p {
+  background-color: #ffbe1b;
+  border: 0.8px solid #BB890B;
+}
+.plantTimeline-section .planting-steps .milestone-4 .accordion-button::after {
+  background-color: #B3C0CD;
+}
+.plantTimeline-section .planting-steps .milestone-4 .accordion-title .milestone-info p {
+  background-color: #0080FF;
+  border: 0.8px solid #005EBB;
+}
+.plantTimeline-section .planting-steps .milestone-5 .accordion-button::after {
+  background-color: #C9AEC2;
+}
+.plantTimeline-section .planting-steps .milestone-5 .accordion-title .milestone-info p {
+  background-color: #fb12b9;
+  border: 0.8px solid #AD047D;
+}
+.plantTimeline-section .planting-steps .milestone-2 .accordion-header .accordion-button {
+  background-color: #E2FFF0;
+}
+.plantTimeline-section .planting-steps .milestone-2 .accordion-collapse {
+  background-color: #E2FFF0;
+}
+.plantTimeline-section .planting-steps .milestone-3 .accordion-header .accordion-button {
+  background-color: #F1D694;
+}
+.plantTimeline-section .planting-steps .milestone-3 .accordion-collapse {
+  background-color: #F1D694;
+}
+.plantTimeline-section .planting-steps .milestone-4 .accordion-header .accordion-button {
+  background-color: #B3C0CD;
+}
+.plantTimeline-section .planting-steps .milestone-4 .accordion-collapse {
+  background-color: #B3C0CD;
+}
+.plantTimeline-section .planting-steps .milestone-5 .accordion-header .accordion-button {
+  background-color: #C9AEC2;
+}
+.plantTimeline-section .planting-steps .milestone-5 .accordion-collapse {
+  background-color: #C9AEC2;
+}
+.plantTimeline-section .planting-steps .milestone-1::after {
+  background-image: url(../img/milestion01-line-img.png);
+}
+.plantTimeline-section .planting-steps .milestone-2::after {
+  background-image: url(../img/milestion02-line-img.png);
+}
+.plantTimeline-section .planting-steps .milestone-3::after {
+  background-image: url(../img/milestion03-line-img.png);
+}
+.plantTimeline-section .planting-steps .milestone-4::after {
+  background-image: url(../img/milestion04-line-img.png);
+}
+
+.plantTimeline-section .planting-steps .accordion .unlock-btn {
+  width: 100%;
+  display: block;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 5px 7px;
+  text-align: center;
+  margin-top: 25px;
+  background-image: url(../img/icons/arrow-up-icon.svg);
+  background-repeat: no-repeat;
+  background-position: right 15% center;
+}
+.plantTimeline-section .planting-steps .accordion.innerAccordion {
+  row-gap: 20px;
+}
+.plantTimeline-section .planting-steps .accordion.innerAccordion .accordion-item {
+  border: 0;
+  border-radius: 0 !important;
+  background-color: transparent;
+}
+.plantTimeline-section .planting-steps .accordion.innerAccordion .accordion-button {
+  font-family: "sf-pro-display", Sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #0A1007;
+}
+.plantTimeline-section .planting-steps .accordion.innerAccordion .accordion-button img {
+  opacity: 1 !important;
+  margin-right: 5px;
+}
+.plantTimeline-section .planting-steps .accordion.innerAccordion .accordion-button::after {
+  background-image: url(../img/icons/dropdown-icon.png) !important;
+  opacity: 1 !important;
+  width: 12px;
+  height: 12px;
+  border-radius: 0;
+  border: 0;
+  background-color: transparent;
+  background-size: 12px;
+}
+
+.C-gap-20 {
+  column-gap: 20px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.title-header {
+  margin-bottom: 16px;
+}
+
+.dashboad-car-view .custom-card .card-body {
+  box-shadow: 0px 1.16px 4.64px 0px rgba(18, 22, 23, 0.0588235294);
+  color: #7B828A;
+  font-family: "sf-pro-display", Sans-serif;
+}
+.dashboad-car-view .custom-card .card-body .gap-10 {
+  gap: 10px;
+}
+.dashboad-car-view .custom-card .card-body .card-title {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 5px 0;
+}
+.dashboad-car-view .custom-card .flex-fill {
+  margin-top: 12px;
+}
+.dashboad-car-view .custom-card .flex-fill .fw-semibold {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #0A1007;
+  margin-bottom: 12px;
+}
+.dashboad-car-view .custom-card .flex-fill .fs-12 {
+  font-size: 12px;
+  color: #7B828A;
+}
+
+span.badge {
+  padding: 5px 10px 6px 5px;
+  position: relative;
+  border-radius: 15px;
+  font-weight: 500;
+}
+span.badge.bg-success {
+  color: #00AB55 !important;
+  border: 1px solid #CEF1E1;
+  background-color: #E3FFF2 !important;
+}
+span.badge.bg-danger {
+  color: #FF0000 !important;
+  border: 1px solid #F4D1D0;
+  background-color: #FFE4E3 !important;
+}
+
+.weather-view {
+  margin-top: 17px;
+  margin-bottom: 17px;
+  padding: 18px;
+}
+.weather-view .number-text {
+  font-size: 50px;
+  line-height: 50px;
+  color: #0A1007;
+}
+.weather-view .weather-degree {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #0A1007;
+  position: relative;
+  margin-top: 4px;
+  padding-left: 15px;
+  padding-right: 5px;
+}
+.weather-view .weather-degree::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  border: 1.4px solid #000;
+  background-color: #ffffff;
+}
+.weather-view .divider {
+  padding: 10px 2px;
+}
+.weather-view .divider .line {
+  width: 1.3px;
+  height: 16px;
+  background-color: #939CA9;
+}
+.weather-view .weather-status {
+  color: #7B828A;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  margin-top: 6px;
+}
+.weather-view .weather-status-info {
+  color: #7B828A;
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: 400;
+}
+.weather-view .weather-status-info span {
+  color: #0A1007;
+  font-size: 14px;
+  font-weight: 500;
+}
+.weather-view .weather-status-info p {
+  margin-bottom: 6px;
+}
+.weather-view .weather-date {
+  color: #0A1007;
+  text-align: right;
+}
+.weather-view .weather-date h5 {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.weather-view .weather-date .weather-date {
+  color: #7B828A;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.line-2 {
+  width: 100%;
+  height: 1.3px;
+  background-color: #EAEAEA;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.weather-notification {
+  font-size: 16px;
+  color: #656B74;
+  line-height: 23px;
+  font-weight: 400;
+  border: 1px solid #F5E7CB;
+  border-radius: 6px;
+  background-color: #FFF8EA;
+  padding: 18px;
+}
+.weather-notification p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-height: 47px;
+}
+.weather-notification p strong {
+  font-weight: 700;
+  color: #0A1007;
+}
+
+.r-card.card {
+  padding: 18px 18px 5px;
+}
+.r-card.card .recommendations {
+  margin-bottom: 4px;
+}
+.r-card.card .recommendations .rtitle {
+  color: #0A1007;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "sf-pro-display", Sans-serif;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.r-card.card .recommendations .all-btn {
+  text-decoration: underline;
+  color: #0080FF;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 500;
+}
+.r-card.card .recommendations-list-card {
+  border: 1px solid #CEF1E1;
+  background-color: #E3FFF2;
+  border-radius: 6px;
+  padding: 8px 8px 12px;
+  margin: 10px 0;
+}
+.r-card.card .recommendations-list-card .nlist {
+  position: relative;
+  padding-left: 20px;
+}
+.r-card.card .recommendations-list-card .nlist::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 2px;
+  left: 0px;
+  background-image: url(../img/icons/check-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.r-card.card .recommendations-list-card h5 {
+  color: #0A1007;
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.r-card.card .recommendations-list-card span {
+  color: #7B828A;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+}
+.r-card.card .recommendations-list-card .more-btn {
+  box-shadow: 0px 0px 4px 0px rgba(112, 110, 110, 0.2392156863);
+  border-radius: 4px;
+  padding: 5px;
+  background-color: #ffffff;
+  font-size: 11px;
+  line-height: 11px;
+  color: #0A1007;
+  font-weight: 500;
+  width: 85px;
+  height: 20px;
+}
+
+span.badge {
+  padding: 5px 10px 6px 15px;
+  position: relative;
+  border-radius: 6px;
+}
+span.badge::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50px;
+  position: absolute;
+  left: 5px;
+  top: 9px;
+}
+
+span.bg-warning {
+  color: #F68904 !important;
+  border: 1px solid #FFE4C3;
+  background-color: #FFF3E5 !important;
+}
+span.bg-warning::before {
+  background-color: #F68904;
+}
+
+span.bg-success {
+  color: #00AB55 !important;
+  border: 1px solid #CEF1E1;
+  background-color: #E3FFF2 !important;
+}
+span.bg-success::before {
+  background-color: #00AB55;
+}
+
+span.bg-danger {
+  color: #FF0000 !important;
+  border: 1px solid #F4D1D0;
+  background-color: #FFE4E3 !important;
+}
+span.bg-danger::before {
+  background-color: #FF0000;
+}
+
+.plant-board-view-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 16px;
+  min-height: 72vh;
+}
+.plant-board-view-list .plant-card-col {
+  flex: 1 1 calc(16.666% - 16px); /* Default for 6 items in a row */
+  box-sizing: border-box;
+  max-width: calc(16.666% - 16px);
+  height: fit-content;
+}
+@media (max-width: 2000px) {
+  .plant-board-view-list .plant-card-col {
+    flex: 1 1 calc(20% - 16px); /* For 5 items in a row */
+    max-width: calc(20% - 16px);
+  }
+}
+.plant-board-view-list .plant-card-col .card {
+  box-shadow: 0px 1.16px 4.64px 0px rgba(18, 22, 23, 0.0588235294);
+  border-radius: 8px;
+  padding: 10px;
+  border-color: rgba(18, 22, 23, 0.1019607843);
+}
+.plant-board-view-list .card-body {
+  padding: 1rem 0.5rem 0.5rem;
+}
+.plant-board-view-list .card-body .plant-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.plant-board-view-list .card-body .plant-card-header .card-title {
+  font-size: 20px;
+  color: #0A1007;
+}
+.plant-board-view-list .card-body .plant-info-list {
+  display: flex;
+  flex-wrap: wrap;
+  color: #727786;
+  line-height: 12px;
+  font-size: 12px;
+  font-weight: 400;
+  row-gap: 12px;
+}
+.plant-board-view-list .card-body .plant-info-list li {
+  width: 50%;
+}
+.plant-board-view-list .card-body .plant-details-btn {
+  background-color: #67A045;
+  border-radius: 6px;
+  box-shadow: 0px 0px 0px 0.8px #67A045;
+  box-shadow: 0px 2px 2px 0px rgba(24, 44, 13, 0.1490196078);
+  color: #ffffff;
+  font-family: "sf-pro-display", Sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  max-width: 265px;
+  margin-right: 12px;
+}
+.plant-board-view-list .card-body .action-btn {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 0px 1px rgba(201, 201, 201, 0.2);
+  border-radius: 6px;
+  padding: 0px 5px;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #efefef;
+}
+.plant-board-view-list .card-body .action-btn img {
+  margin-top: -5px;
+}
+
+.list-pagination .pagination-block {
+  display: flex;
+  justify-content: flex-end;
+}
+.list-pagination .pagination-block .pagination {
+  margin: 0;
+}
+.list-pagination .pagination-block .page-item .page-link {
+  font-family: "sf-pro-display", Sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #0A1007;
+  border-radius: 0;
+  border-color: #eee;
+}
+.list-pagination .pagination-block .page-item .page-link:focus {
+  outline: none;
+  box-shadow: none;
+}
+.list-pagination .pagination-block .page-item .page-link.clickPageNumber {
+  background-color: transparent;
+  border-color: #eee;
+}
+.list-pagination .pagination-block .page-item.disabled .page-link {
+  color: #7B828A;
+}
+
+.table-content .table-list .table-responsive .table tbody tr.todo-box .task-checkbox {
+  display: flex;
+  gap: 8px;
+  border: 0;
+}
+.table-content .table-list .table-responsive .table tbody tr.todo-box .task-checkbox img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.table-content .table-list .table-responsive .table tbody tr.todo-box .task-checkbox .plant-details {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.table-content .table-list .table-responsive .table tbody tr.todo-box .task-checkbox .plant-details .plant-name {
+  font-family: "sf-pro-display", Sans-serif;
+  font-size: 12px;
+  color: #0A1007;
+  margin: 0;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+.table-content .table-list .table-responsive .table tbody tr.todo-box .task-checkbox .plant-details .plant-id {
+  font-size: 10px;
+  color: #727786;
+}
+
+.app-sidebar {
+  width: 15rem;
+  height: 100%;
+  background: #fbfbfb;
+  border-right: 1px solid #ededed;
+  position: fixed;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  z-index: 5;
+  transition: all 0.05s ease;
+}
+.app-sidebar .app-fav-icon {
+  display: none;
+}
+.app-sidebar .app-sidebar-header {
+  height: 60px;
+}
+.app-sidebar.collapsed {
+  width: 5rem !important;
+  transition: all 0.05s ease;
+}
+.app-sidebar.collapsed .app-sidebar-header {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.app-sidebar.collapsed .elementor-icon-list-items .elementor-icon-list-text {
+  display: none !important;
+}
+.app-sidebar.collapsed .elementor-icon-list-items .elementor-icon-list-item {
+  display: block;
+  text-align: center;
+}
+.app-sidebar.collapsed .elementor-icon-list-items .elementor-icon-list-item .elementor-icon-list-icon {
+  display: block;
+}
+.app-sidebar.collapsed .app-logo {
+  display: none;
+}
+.app-sidebar.collapsed .app-fav-icon {
+  display: block;
+}
+.app-sidebar.collapsed .elementor-nav-menu--main .elementor-nav-menu .menu-text {
+  opacity: 0;
+  height: 20px;
+}
+
+.elementor-nav-menu--main .elementor-nav-menu .icon {
+  padding: 0 8px;
+}
+.elementor-nav-menu--main .elementor-nav-menu .icon::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 5px;
+  left: 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.elementor-nav-menu--main .elementor-nav-menu .icon.current-menu-item {
+  border: 1px solid #E2F1D8;
+  background-color: #F3FFEB;
+  border-radius: 6px;
+  padding: 0 8px;
+}
+.elementor-nav-menu--main .elementor-nav-menu .icon.current-menu-item::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 18px;
+  top: 4px;
+  left: -3px;
+  background-color: #67A045;
+}
+.elementor-nav-menu--main .elementor-nav-menu .icon.current-menu-item.dashboard-icon::before {
+  background-image: url(../img/icons/dashboard-active-menu.svg);
+}
+.elementor-nav-menu--main .elementor-nav-menu .icon.current-menu-item.plantLists-icon::before {
+  background-image: url(../img/icons/my-list-menu-active-icon.svg);
+}
+.elementor-nav-menu--main .elementor-nav-menu .dashboard-icon::before {
+  background-image: url(../img/icons/dashboard-menu.svg);
+}
+.elementor-nav-menu--main .elementor-nav-menu .plantLists-icon::before {
+  background-image: url(../img/icons/my-list-menu-icon.svg);
+}
+.elementor-nav-menu--main .elementor-nav-menu .availableLists-icon::before {
+  background-image: url(../img/icons/available-list-menu.svg);
+}
+.elementor-nav-menu--main .elementor-nav-menu .blogs-icon::before {
+  background-image: url(../img/icons/blog-icon.svg);
+}
+.elementor-nav-menu--main .elementor-nav-menu .homepage-icon::before {
+  background-image: url(../img/icons/home-menu.svg);
+}
+
+.main-content-view {
+  padding: 20px 10px;
+  padding-inline-start: 16rem;
+  min-width: 1200px;
+}
+.main-content-view.collapsed {
+  padding-inline-start: 6rem;
+}
+
+.main-content-view .page-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 18px;
+  font-family: "sf-pro-display", Sans-serif;
+}
+
+.app-content {
+  margin-block-start: 3.75rem;
+  margin-inline-start: 15rem;
+  transition: all 0.05s ease;
+}
+.app-content.collapsed {
+  transition: all 0.05s ease;
+}
+.app-content.collapsed .app-header .main-header-container {
+  padding-inline-start: 5.5rem;
+}
+
+.app-header {
+  max-width: 100%;
+  height: 60px;
+  position: fixed;
+  inset-block-start: 0;
+  inset-inline: 0;
+  background: white;
+  padding-inline-start: 15rem;
+  border-block-end: 1px solid #ededed;
+  transition: all 0.05s ease;
+  font-size: 14px;
+}
+.app-header .main-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding-inline-start: 16rem;
+}
+.app-header .main-header-container .header-content-left img {
+  margin-right: 5px;
+}
+
+.table-content .table-list {
+  border-radius: 0.25rem;
+  color: #282833;
+}
+.table-content .table-list .table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.table-content .table-list .table-responsive .table {
+  background-color: #ffffff;
+  color: #282833;
+  border-color: #ffffff;
+  margin-block-end: 0;
+}
+.table-content .table-list .table-responsive .table tbody > tr > td {
+  padding: 8px 10px;
+  border: 0;
+  border-bottom: 1px solid #ededed;
+  vertical-align: middle;
+}
+.table-content .table-list .table-responsive .table tbody > tr > td .percent {
+  color: black;
+  font-weight: 500;
+}
+.table-content .table-list .table-responsive .table tbody > tr:nth-child(odd) > td {
+  background-color: #ffffff;
+}
+.table-content .table-list .table-responsive .table thead {
+  vertical-align: bottom;
+}
+.table-content .table-list .table-responsive .table thead tr th {
+  font-weight: 500;
+  font-size: 12px;
+  font-family: "sf-pro-display", Sans-serif;
+  color: rgb(107.2527472527, 107.2527472527, 136.7472527473);
+  border: 0;
+  border-bottom: 1px solid #ededed;
+  background: white;
+  padding: 10px;
+  letter-spacing: 0.2px;
+}
+.table-content .table-list .table-responsive .table tbody tr td span {
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+}
+.table-content .table-list .table-responsive .table > :not(caption) > * > * {
+  padding: 0.5rem 0.5rem;
+  background-color: #ffffff;
+  border-bottom-width: 1px;
+  border-color: #eee;
+}
+.table-content .table-list .table-responsive .table tbody tr.todo-box .task-checkbox input[type=checkbox] {
+  margin-top: 10px;
+}
+.table-content .table-list .table-responsive .table thead tr th {
+  font-weight: 500;
+  font-size: 12px;
+  color: #7B828A;
+  border: 0;
+  border-bottom: 1px solid #eeeeee;
+  background: #f5f5f5;
+  padding: 10px;
+}
+.table-content .table-list table tbody tr:hover > td, .table-content .table-list table tbody tr:hover > th,
+.table-content .table-list table tbody > tr:nth-child(odd):hover > td {
+  background-color: #FFFBF0 !important;
+}
+
+.table tbody tr td span.badge {
+  padding: 5px 10px 6px 15px;
+  position: relative;
+  border-radius: 6px;
+}
+.table tbody tr td span.badge::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50px;
+  position: absolute;
+  left: 5px;
+  top: 9px;
+}
+
+.table tbody tr td span.bg-warning {
+  color: #F68904 !important;
+  border: 1px solid #FFE4C3;
+  background-color: #FFF3E5 !important;
+}
+.table tbody tr td span.bg-warning::before {
+  background-color: #F68904;
+}
+
+.table tbody tr td span.bg-success {
+  color: #00AB55 !important;
+  border: 1px solid #CEF1E1;
+  background-color: #E3FFF2 !important;
+}
+.table tbody tr td span.bg-success::before {
+  background-color: #00AB55;
+}
+
+.table tbody tr td span.bg-danger {
+  color: #FF0000 !important;
+  border: 1px solid #F4D1D0;
+  background-color: #FFE4E3 !important;
+}
+.table tbody tr td span.bg-danger::before {
+  background-color: #FF0000;
+}
+
+.progress.progress-xs {
+  height: 0.35rem !important;
+}
+
+.plant-card-header {
+  margin-bottom: 20px;
+}
+.plant-card-header .tab-content {
+  width: 150px;
+  background-color: #F5F5F5;
+  border-radius: 6px;
+}
+.plant-card-header .tab-content .nav-tabs {
+  border: 0;
+  background-color: #F5F5F5;
+  padding: 5px 5px 7px;
+  border-radius: 6px;
+}
+.plant-card-header .tab-content .nav .nav-item .nav-link {
+  padding: 1px 10px;
+  font-family: "sf-pro-display", Sans-serif;
+  font-size: 14px;
+  color: #7B828A;
+  text-transform: capitalize;
+  letter-spacing: 0px;
+}
+.plant-card-header .tab-content .nav .nav-item .nav-link.active {
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1215686275);
+}
+.plant-card-header .tab-content .nav .nav-item .nav-link img {
+  margin-right: 5px;
+  margin-top: -3px;
+}
+
+.filter-categories {
+  display: flex;
+  flex-flow: row;
+  gap: 10px;
+}
+.filter-categories .filter-btn {
+  box-shadow: 0px 1px 4px 1px rgba(201, 201, 201, 0.4509803922);
+  background-color: white;
+  border-radius: 6px;
+  padding: 3px 10px 6px;
+  position: relative;
+}
+.filter-categories .filter-btn.filter-dropdown-btn {
+  padding-right: 22px;
+  cursor: pointer;
+}
+.filter-categories .filter-btn.filter-dropdown-btn::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 9px;
+  right: 6px;
+  background-image: url(../img/icons/dropdown-icon-green.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(0.1);
+}
+.filter-categories .filter-btn.filter-dropdown-btn img {
+  filter: brightness(0.1);
+}
+.filter-categories .filter-btn.filter-dropdown-btn:hover {
+  background-color: #F1FFE9;
+}
+.filter-categories .filter-btn.filter-dropdown-btn:hover::after, .filter-categories .filter-btn.filter-dropdown-btn:hover img {
+  filter: brightness(1);
+}
+.filter-categories .filter-btn.filter-dropdown-btn:hover span {
+  color: #67A045;
+}
+.filter-categories .filter-btn.add-item-btn {
+  background-color: #67A045;
+  box-shadow: 0px 0px 0px 0.8px #67A045;
+}
+.filter-categories .filter-btn.add-item-btn span {
+  color: #ffffff;
+}
+.filter-categories .filter-btn span {
+  font-family: "sf-pro-display", Sans-serif;
+  font-size: 13px;
+  color: #0A1007;
+  line-height: 13px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+.filter-categories .divider {
+  padding: 8px 4px;
+}
+.filter-categories .divider .line {
+  width: 1.2px;
+  height: 16px;
+  background-color: #EBEBEB;
+}
